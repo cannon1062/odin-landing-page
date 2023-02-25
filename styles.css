@@ -165,3 +165,16 @@ a {
 .bottom-signup.signup {
     border: 2px solid white;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 12px;
+}
