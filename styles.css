@@ -41,6 +41,7 @@ a {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 50px;
 }
@@ -69,6 +70,8 @@ a {
     border: none;
     padding: 5px 30px;
     margin-top: 10px;
+    flex-shrink: 0;
+    font-size: 24px;
 }
 
 .one-right {
@@ -78,6 +81,11 @@ a {
     background-color: gray;
     width: 33.33%;
     margin: 20px;
+    padding: 100px 10px;
+}
+
+.one-image {
+    text-align: center;
 }
 
 /* SECTION TWO */
@@ -156,10 +164,12 @@ a {
     background-color: #3882f6;
     padding: 50px 100px;
     border-radius: 10px;
+    gap: 50px;
 }
 
 .card-text {
     color: #F9FAF8;
+    font-size: 24px;
 }
 
 .bottom-signup.signup {
