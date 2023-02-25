@@ -64,8 +64,9 @@ a {
 
 .signup {
     color: #F9FAF8;
-    border-radius: 8px;
+    border-radius: 6px;
     background: #3882f6;
+    border: none;
     padding: 5px 30px;
     margin-top: 10px;
 }
@@ -137,4 +138,30 @@ a {
     font-size: 24px;
     text-align: end;
     padding: 20px 100px;
+}
+
+/* SECTION FOUR */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.signup-card {
+    width: 66.66%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.card-text {
+    color: #F9FAF8;
+}
+
+.bottom-signup.signup {
+    border: 2px solid white;
 }
